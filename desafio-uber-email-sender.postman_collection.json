@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "0eac0698-deb3-41ba-a852-47b3bd13d42b",
+		"name": "desafio-uber-email-sender",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8195190"
+	},
+	"item": [
+		{
+			"name": "/api/email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"to\": \"will.bigas@gmail.com\",\r\n    \"subject\": \"teste\",\r\n    \"body\": \"Hello from teste\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/email",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"email"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
